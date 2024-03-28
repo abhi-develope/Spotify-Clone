@@ -72,7 +72,13 @@ body{
     color: grey;
 }
 
+.right{
+    margin: 16px 0;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(41, 40, 40);
 }
