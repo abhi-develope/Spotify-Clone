@@ -82,3 +82,58 @@ body{
     padding: 20px;
     background-color: rgb(41, 40, 40);
 }
+
+
+.spotifyPlaylist{
+    padding: 16px;
+}
+
+.cardContainer{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.circleButton {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    background-color: #1fdf64; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    left: 154px;
+    display: none;
+    transition:  1s ease-in-out;
+   
+}
+
+.card:hover .circleButton{
+    display: flex;
+    
+    top: 142px;
+    left: 154px;
+    transition:  1s ease-in-out;
+    
+}
+
+
+
+.spotifyPlaylist .card{
+    width: 200px;
+    padding: 0 10px;
+    border-radius:  5px;
+    background-color: #252525;
+    position: relative;
+}
+
+.card > *{
+    padding: 10px 0;
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
