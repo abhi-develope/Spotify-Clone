@@ -71,3 +71,8 @@ body{
 .footer a{
     color: grey;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
