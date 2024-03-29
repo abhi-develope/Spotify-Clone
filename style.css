@@ -184,7 +184,9 @@ body{
     position: absolute;
     bottom: 0;
     width: 90%;
-    background-color: #1fdf64;
+    background-color: white;
     padding: 12px;
+    display: flex;
+    justify-content: center;
 
 }
