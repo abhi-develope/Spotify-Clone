@@ -74,6 +74,7 @@ body{
 
 .right{
     margin: 16px 0;
+    position: relative;
 }
 
 .header{
@@ -179,3 +180,11 @@ body{
 
 }
 
+.playBox{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    background-color: #1fdf64;
+    padding: 12px;
+
+}
