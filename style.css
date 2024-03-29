@@ -81,6 +81,7 @@ body{
     justify-content: space-between;
     padding: 20px;
     background-color: rgb(41, 40, 40);
+    align-items: center;
 }
 
 
@@ -139,3 +140,42 @@ body{
     width: 100%;
     object-fit: contain;
 }
+
+.buttons > *{
+    margin: 0 12px;
+}
+
+.signUp{
+    background-color: rgb(41, 40, 40) ;
+    color: rgb(151, 142, 142);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.signUp:hover{
+    font-size: 17px;
+    color: white;
+}
+
+.logIn{
+    background-color: white;
+    border-radius: 21px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.logIn:hover{
+    background-color: rgb(223, 218, 218) ;
+    font-weight: bold;
+    transform: scale(1.05);
+
+}
+
